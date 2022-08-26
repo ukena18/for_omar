@@ -1,0 +1,59 @@
+body {
+  background-color: #90caf9;
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-banner img {
+  margin: 0px 24px;
+}
+
+.nav-menu {
+  padding: 0px 120px;
+  background-color: #69cfff;
+  margin: 24px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main {
+  display: flex;
+}
+.routes {
+  /* background-color: red; */
+  flex: 1;
+}
+.toggle-bar {
+  border: 1px solid black;
+  background-color: lightblue;
+  margin: 24px 12px 0px 12px;
+  display: block;
+}
+
+.containers {
+  flex: 4;
+  /* background-color: red; */
+}
+
+.container {
+  display: none;
+}
+.recent-list {
+  display: grid;
+  margin-left: 24px;
+  /* background-color: blue; */
+  grid-template-columns: repeat(5, 100px);
+}
+
+#recent-foods:hover + #b {
+  background-color: red;
+}
